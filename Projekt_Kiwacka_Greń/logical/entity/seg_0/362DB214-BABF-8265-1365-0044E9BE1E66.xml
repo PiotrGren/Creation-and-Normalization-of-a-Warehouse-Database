@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="362DB214-BABF-8265-1365-0044E9BE1E66" name="SG Dates">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>72A6A2E8-9667-4318-C38D-447121B12586</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>SG_Dates</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Order Date" id="372F581C-8E42-1E96-CC5A-DA7A14303104">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>D20E59D2-7E15-3036-DFBA-6F6688D9A66C</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Order Time" id="7E7A54FC-E24E-8A5B-FF67-01999AAEFF7E">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>F7573F54-2273-4B79-F9E6-FD1D8876C570</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Realization Date" id="A9BB7FA2-BB4A-2BCB-30FC-E8017BF737EB">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>1CFF887C-AC30-323F-03DE-E394FEA1429A</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Realization Time" id="CC854A86-9D25-0651-266B-723AF0F86691">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>CF5E5CE0-5AA2-B1BF-0498-E2F75FEBBBA2</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT014</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Suplement Goods ID Order SUP" id="FE50B3B9-5991-3DCB-5E12-4DBF745F5C79">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>1788D770-8CAF-443D-44AB-F8C76B052ED6</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<referedAttribute>E81EE4CB-A8ED-8CAA-F7B4-A8B7FC81270E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="DEA0161E-34E2-D98B-7E9C-F168E2D1D8E2" name="SG Dates PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>3E49A82A-8730-6F11-EE39-FAD5937700AA</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FE50B3B9-5991-3DCB-5E12-4DBF745F5C79</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

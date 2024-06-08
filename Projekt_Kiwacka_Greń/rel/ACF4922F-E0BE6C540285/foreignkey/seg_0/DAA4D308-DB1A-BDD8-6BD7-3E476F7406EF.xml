@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DAA4D308-DB1A-BDD8-6BD7-3E476F7406EF" containerWithKeyObject="444255B0-8087-644F-A908-87994067CBAA" localFKIndex="82D67818-B1C4-BD0F-FC1C-8C7D2DD6A642" name="Dostawcy_Kraj_Country_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<referredTableLongName>Country</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>861197FD-1F2E-F82A-6E09-7177B24C96EE</referredTableID>
+<keyObject>8FC6C9F4-2E51-BA46-BBA9-1CCA908231F1</keyObject>
+<referredKeyID>8FC6C9F4-2E51-BA46-BBA9-1CCA908231F1</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Country</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

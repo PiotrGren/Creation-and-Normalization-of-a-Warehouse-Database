@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Producent Adres PR FK" directorySegmentName="seg_0" id="091C8E3D-1FB0-72B2-70D4-608B0828027A">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:36:11 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<sourcePk>C8D9A524-F298-3420-E51B-4BBD308B9499</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>5DB6158A-DCB5-206D-6C29-3BDAA176E325</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7B67D33B-8443-40BE-7827-1E42381E4FAD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

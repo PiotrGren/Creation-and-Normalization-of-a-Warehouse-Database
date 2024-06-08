@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E0539A6D-5AF5-1BC3-E61D-65993E18E4D7" name="Order_Cost">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<ordsAlias>table_15</ordsAlias>
+<abbreviation>Order_Cost</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Cost" id="423109D5-8393-FF33-F80F-3CDF02FA6CA7">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,2,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Payment" id="E8BC97D7-AA6E-AEDF-8F21-F946D42ABB4D">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Orders_ID_Order" id="059199FD-4AF2-85B2-8F18-3AC94F173707">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9C0372F6-E63C-1C14-CE1A-9700BD52B092" referredColumn="34FDC7A9-B45B-A209-8ABB-4620BE85E6A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F6B6BFF2-00E1-CA24-8039-12FC56BF38FE" name="Order_Cost_PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="059199FD-4AF2-85B2-8F18-3AC94F173707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89905DA2-BB53-87D1-14EB-6C5ECB2B1F04" name="Order_Cost_Orders_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="059199FD-4AF2-85B2-8F18-3AC94F173707"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

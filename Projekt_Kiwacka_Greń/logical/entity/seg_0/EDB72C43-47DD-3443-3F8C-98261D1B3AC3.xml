@@ -1,0 +1,106 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EDB72C43-47DD-3443-3F8C-98261D1B3AC3" name="Suplement Goods">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>322BFC6E-2BE5-4A70-C84B-BA06F6F4738A</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Suplement_Goods</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Order SUP" id="E81EE4CB-A8ED-8CAA-F7B4-A8B7FC81270E">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>5E6A6382-FBE7-A392-FC4D-FB786A7E03BD</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Staff ID Worker" id="BACB2F1C-A630-8894-2216-16167B5B3717">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>45642443-7CD2-3197-7C01-D61259AA256D</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<referedAttribute>BE5DA603-81E7-A7BB-467E-C50AD53FDE2D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Producent ID Prod" id="B8FC8F0A-FBE6-2C9E-D995-F2C630A8DEEC">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>B3A6B751-3798-8687-B649-376BA6E920DB</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<referedAttribute>BAEB471C-71DD-02DA-F63A-5C7FDBEEF978</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Dostawcy ID Dostawcy" id="8A6F2A89-4712-2C68-B276-037DA678F823">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>5BC4A71A-F54F-6485-7585-E866F02B957D</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<referedAttribute>7B54F44F-C1C0-8AB5-A514-3346A2B60DB4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Towar ID Towaru" id="F42BE17E-5FFE-CA7F-81B1-CC3E9D65D7B7">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>C07388FF-5EA8-6391-76F4-5615F8873325</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<referedAttribute>1AD41442-7910-A637-997A-5B7EC0B29E91</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CB60B908-6552-75AB-7FAA-E76E44C67C3B" name="Suplement Goods PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>56CA9BA9-6331-3CFA-085B-C3291938D9C2</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>E81EE4CB-A8ED-8CAA-F7B4-A8B7FC81270E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

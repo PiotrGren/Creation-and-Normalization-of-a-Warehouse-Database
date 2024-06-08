@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="Projekt_Kiwacka_Greń" id="3F28C44D-B0AF-F463-BDD3-B1771BE0CE0A" version="3.5">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:33:42 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>3F28C44D-B0AF-F463-BDD3-B1771BE0CE0A</designId>
+</OSDM_Design>

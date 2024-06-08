@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ECDAFD36-C403-610B-7119-B91E5C2363AF" name="PR_Type">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>PR_Type</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Type" id="EBCC8273-946B-410D-ADFB-86AF6D388215">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Name" id="F9F89F32-338C-3FD2-651B-6AA8484B633F">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="96030A9F-8AE1-78BD-B4D9-A628AAD552ED" name="PR_Type_PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EBCC8273-946B-410D-ADFB-86AF6D388215"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

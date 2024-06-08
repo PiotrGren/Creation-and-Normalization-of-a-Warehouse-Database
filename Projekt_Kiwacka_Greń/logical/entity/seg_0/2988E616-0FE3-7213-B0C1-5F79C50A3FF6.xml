@@ -1,0 +1,78 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2988E616-0FE3-7213-B0C1-5F79C50A3FF6" name="Country">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>861197FD-1F2E-F82A-6E09-7177B24C96EE</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<shortName>Country</shortName>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID Country" id="5CF2C2A8-52CC-6A6E-F6B8-39E64008D9DF">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>D73EA47C-F93A-8151-0939-40EB0C878272</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Name" id="07534DD5-36F7-15EA-D8AF-CD26849C0F9C">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>FBFA68CE-EA63-490D-BB42-B1C3D2CFF643</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60 CHAR</dataTypeSize>
+<ownDataTypeParameters>60 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Shortcut" id="F92FFACB-53F9-CD60-B81B-1CB57BBA66B0">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>95D43043-FD9B-10FC-4CF7-3C9128261206</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3 CHAR</dataTypeSize>
+<ownDataTypeParameters>3 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0934158E-B880-F38D-6947-FA0A00539816" name="Country PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>8FC6C9F4-2E51-BA46-BBA9-1CCA908231F1</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5CF2C2A8-52CC-6A6E-F6B8-39E64008D9DF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

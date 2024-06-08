@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orders_Towar_FK" directorySegmentName="seg_0" id="5580C247-2877-048B-AF87-EC822FBBD338">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>EAB47D40-3363-CC48-0D13-0DCEE00ACD46</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<sourcePk>8C941120-F12E-63E8-509D-4FFEC4473E08</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>899A6C6A-5FED-44D0-BD6A-09318525DEE6</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>985977B0-125C-4882-62DA-05899C55EE7F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

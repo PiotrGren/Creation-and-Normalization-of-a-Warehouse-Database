@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Orders_Staff_FK" directorySegmentName="seg_0" id="F91B5F9B-1FB3-B995-2255-93F52F0462F6">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>712DAA29-02D1-C589-64C3-565A7614F44D</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<sourcePk>696ABE5D-9299-E350-B990-ABD1CA2F1546</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1961B190-CCB7-E2BC-47AE-467ADDCE1A72</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>985977B0-125C-4882-62DA-05899C55EE7F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

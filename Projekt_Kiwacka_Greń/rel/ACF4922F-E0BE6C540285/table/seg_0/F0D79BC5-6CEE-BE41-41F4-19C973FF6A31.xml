@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F0D79BC5-6CEE-BE41-41F4-19C973FF6A31" name="PR_Type_Cat">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<ordsAlias>table_11</ordsAlias>
+<abbreviation>PR_Type_Cat</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PR_Cat_ID_Cat" id="D6797BDA-456A-6DC0-55EB-E1CE307DF507">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2CE614E0-8F74-37DA-0098-F14078E02F65" referredColumn="F847BE0D-80D7-D32F-4C79-CA6508A30B52"/>
+</associations>
+</Column>
+<Column name="PR_Type_ID_Type" id="635ED0FE-AD17-837B-1D19-E0150ECA4003">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E17DF9A-60C7-974F-D4F2-750299DC840A" referredColumn="EBCC8273-946B-410D-ADFB-86AF6D388215"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4B64CA5D-E303-8FC0-6E30-5F1BEE766D90" name="PR_Type_Cat_PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="635ED0FE-AD17-837B-1D19-E0150ECA4003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0B30DF56-6F23-5543-5557-8A22D0434FB4" name="PR_Type_Cat_PR_Type_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="635ED0FE-AD17-837B-1D19-E0150ECA4003"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D321AC36-E9C1-F94D-D636-97B759B25AA0" name="PR_Type_Cat_PR_Cat_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6797BDA-456A-6DC0-55EB-E1CE307DF507"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

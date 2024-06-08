@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="E556EA60-0697-87DB-6042-B0B851CD2C5C" mainViewID="2F982DF6-016D-3776-96CD-D49366A9B5AB">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:33:42 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

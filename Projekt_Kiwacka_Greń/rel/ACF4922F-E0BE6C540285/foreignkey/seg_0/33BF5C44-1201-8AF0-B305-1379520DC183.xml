@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="33BF5C44-1201-8AF0-B305-1379520DC183" containerWithKeyObject="A83F9F9B-F698-B449-4D46-F3A48D46C181" localFKIndex="A5F52D7A-6BFF-6716-7715-07367D3FC873" name="Order_Dates_Orders_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<referredTableLongName>Orders</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>D323CF2C-B3CB-8853-92A8-9037D81B0797</referredTableID>
+<keyObject>98118663-1C95-4691-93B2-C47498E5DFE2</keyObject>
+<referredKeyID>98118663-1C95-4691-93B2-C47498E5DFE2</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Order</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B69836CE-D53A-C60B-C6D0-C544FEAF0010" containerWithKeyObject="ACA2D207-8B2E-AEAE-59DA-572E3D4089D5" localFKIndex="D6E93D45-A477-BC33-042E-4D5200008F7D" name="Twoar_Producent_Producent_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<referredTableLongName>Producent</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2E4D4466-5658-E6DA-FD9C-DDBA2002D5CC</referredTableID>
+<keyObject>8E272E82-847D-7072-C77E-D78E376E1F4D</keyObject>
+<referredKeyID>8E272E82-847D-7072-C77E-D78E376E1F4D</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_Prod</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

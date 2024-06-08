@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="444255B0-8087-644F-A908-87994067CBAA" name="Dostawcy_Kraj">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<ordsAlias>table_21</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dostawcy_ID_Dostawcy" id="9FB0E6BE-F9ED-1E2B-0268-6FE63ADBFE7E">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="71BD90EC-9C69-E587-1255-C465AD8C8B81" referredColumn="77358A69-C8CF-E312-102B-0B2552D0CF63"/>
+</associations>
+</Column>
+<Column name="Country_ID_Country" id="296BED43-9F67-A7F9-8EF3-54E7605FFD3E">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DAA4D308-DB1A-BDD8-6BD7-3E476F7406EF" referredColumn="D73EA47C-F93A-8151-0939-40EB0C878272"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EB3CAC81-355E-B76A-4870-9436BFB282DC" name="Dostawcy_Kraj_PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FB0E6BE-F9ED-1E2B-0268-6FE63ADBFE7E"/>
+<colUsage columnID="296BED43-9F67-A7F9-8EF3-54E7605FFD3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34B971B4-3AF8-4132-CD9C-D45ACB27F300" name="Dostawcy_Kraj_Dostawcy_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9FB0E6BE-F9ED-1E2B-0268-6FE63ADBFE7E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="82D67818-B1C4-BD0F-FC1C-8C7D2DD6A642" name="Dostawcy_Kraj_Country_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="296BED43-9F67-A7F9-8EF3-54E7605FFD3E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

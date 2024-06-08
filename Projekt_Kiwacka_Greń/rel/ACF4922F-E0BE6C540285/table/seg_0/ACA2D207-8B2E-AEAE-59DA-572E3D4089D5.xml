@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ACA2D207-8B2E-AEAE-59DA-572E3D4089D5" name="Twoar_Producent">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<ordsAlias>table_24</ordsAlias>
+<abbreviation>Twoar_Producent</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Towar_ID_Towaru" id="AEFA9141-AAFD-83C9-1986-5A683A4AADCC">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="88FF0A2A-4139-5E09-63B4-A53FAF37D003" referredColumn="487B15E1-217A-61C6-3B52-664555AE9D4B"/>
+</associations>
+</Column>
+<Column name="Producent_ID_Prod" id="079AE605-B9C1-A43E-104A-6494FE9F8518">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B69836CE-D53A-C60B-C6D0-C544FEAF0010" referredColumn="626CE6A3-6C37-1E70-067D-CA4374FF64FF"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2054E32D-1D37-1A29-2FE5-E8EFDC790078" name="Twoar_Producent_PK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEFA9141-AAFD-83C9-1986-5A683A4AADCC"/>
+<colUsage columnID="079AE605-B9C1-A43E-104A-6494FE9F8518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D6E93D45-A477-BC33-042E-4D5200008F7D" name="Twoar_Producent_Producent_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="079AE605-B9C1-A43E-104A-6494FE9F8518"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6519C914-56F6-A451-E49B-86B5F34AF349" name="Twoar_Producent_Towar_FK">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:34:05 UTC</createdTime>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AEFA9141-AAFD-83C9-1986-5A683A4AADCC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

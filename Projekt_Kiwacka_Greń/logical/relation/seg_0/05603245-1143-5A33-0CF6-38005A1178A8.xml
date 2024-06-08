@@ -1,0 +1,21 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Order_Dates_Orders_FK" directorySegmentName="seg_0" id="05603245-1143-5A33-0CF6-38005A1178A8">
+<createdBy>Piotrek</createdBy>
+<createdTime>2023-01-16 11:35:50 UTC</createdTime>
+<generatorID>33BF5C44-1201-8AF0-B305-1379520DC183</generatorID>
+<ownerDesignName>Projekt_Kiwacka_Greń</ownerDesignName>
+<engineerTo>
+<item key="ACF4922F-5034-731C-2AF3-E0BE6C540285" value="true"/>
+</engineerTo>
+<sourcePk>A3D33FEB-D111-1CFD-2795-2BAA65779273</sourcePk>
+<dominantRole>985977B0-125C-4882-62DA-05899C55EE7F</dominantRole>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>985977B0-125C-4882-62DA-05899C55EE7F</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CA480ECE-74EF-5A97-F845-F10011A7BC84</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>
