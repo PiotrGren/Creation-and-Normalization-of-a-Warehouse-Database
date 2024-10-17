@@ -984,7 +984,7 @@ INSERT INTO Missing_Goods (id_missing_goods, towar_id_towaru, quantity) VALUES (
 
 
 
---APEX Export
+--APEX Export - for Oracle APEX APP
 begin
     --HTMLDB_PLAN_TABLE: 0/10000 rows exported, no file generated
     apex_data_install.load_supporting_object_data(p_table_name => 'HTMLDB_PLAN_TABLE', p_delete_after_install => false );
